@@ -1,5 +1,29 @@
 nav {
-	background-color: red;
-	display: flex;
+	background-color: cyan;
+	font-size: 20px;
+	width: 50%;
+	margin-left: auto;
+	
+}
 
+ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+li { 
+	flex-grow: 1;
+}
+
+.img {
+	
+	display: flex;
+	background-color: gray;
+	justify-content: center;
+}
+
+h2, footer {
+	text-align: center;
 }
